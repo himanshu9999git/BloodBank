@@ -84,13 +84,14 @@
                 android:text="@string/Division"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
+
             <Spinner
                 android:id="@+id/SpinnerDivision"
-                android:entries="@array/division_list"
-                android:padding="5dp"
-                android:inputType="text"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:entries="@array/division_list"
+                android:inputType="text"
+                android:padding="5dp" />
         </LinearLayout>
 
         <Button

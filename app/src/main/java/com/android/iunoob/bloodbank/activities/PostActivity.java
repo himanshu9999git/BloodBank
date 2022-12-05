@@ -135,7 +135,7 @@ public class PostActivity extends AppCompatActivity {
                                     db_ref.child(uid).child("Name").setValue(dataSnapshot.getValue(UserData.class).getName());
                                     db_ref.child(uid).child("Contact").setValue(text1.getText().toString());
                                     db_ref.child(uid).child("Address").setValue(text2.getText().toString());
-                                    db_ref.child(uid).child("Division").setValue(spinner2.getSelectedItem().toString());
+                                    db_ref.child(uid).child("State").setValue(spinner2.getSelectedItem().toString());
                                     db_ref.child(uid).child("BloodGroup").setValue(spinner1.getSelectedItem().toString());
                                     db_ref.child(uid).child("Time").setValue(Time);
                                     db_ref.child(uid).child("Date").setValue(Date);
